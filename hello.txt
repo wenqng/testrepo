@@ -1,13 +1,37 @@
-##hi##
-*I am testing*
+linux-qkrw:~ # xl info
+host                   : linux-qkrw
+release                : 4.4.76-1-default
+version                : #1 SMP Fri Jul 14 08:48:13 UTC 2017 (9a2885c)
+machine                : x86_64
+nr_cpus                : 4
+max_cpu_id             : 7
+nr_nodes               : 1
+cores_per_socket       : 2
+threads_per_core       : 2
+cpu_mhz                : 2893
+hw_caps                : bfebfbff:77bae3ff:28100800:00000001:00000001:00000281:00000000:00000100
+virt_caps              : hvm hvm_directio
+total_memory           : 7866
+free_memory            : 128
+sharing_freed_memory   : 0
+sharing_used_memory    : 0
+outstanding_claims     : 0
+free_cpus              : 0
+xen_major              : 4
+xen_minor              : 9
+xen_extra              : .0_11-4
+xen_version            : 4.9.0_11-4
+xen_caps               : xen-3.0-x86_64 xen-3.0-x86_32p hvm-3.0-x86_32 hvm-3.0-x86_32p hvm-3.0-x86_64 
+xen_scheduler          : credit
+xen_pagesize           : 4096                                                                                                                                
+platform_params        : virt_start=0xffff800000000000                                                                                                       
+xen_changeset          :                                                                                                                                     
+xen_commandline        : vga=gfx-1024x768x16                                                                                                                 
+cc_compiler            : gcc (SUSE Linux) 4.8.5                                                                                                              
+cc_compile_by          : abuild                                                                                                                              
+cc_compile_domain      : suse.de                                                                                                                             
+cc_compile_date        : Mon Aug 28 14:51:54 UTC 2017                                                                                                        
+build_id               : 3e9ed5ee9292b0f57d3bf7c1cb612a0d685ba862                                                                                            
+xend_config_format     : 4               
 
-guess what?
-I'm a good boy.
 
-OK
-give my dog.
-dog
-cat
-mouse
-
-压灭咯。。。。
