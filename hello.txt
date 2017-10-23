@@ -1,37 +1,51 @@
-linux-qkrw:~ # xl info
-host                   : linux-qkrw
-release                : 4.4.76-1-default
-version                : #1 SMP Fri Jul 14 08:48:13 UTC 2017 (9a2885c)
-machine                : x86_64
-nr_cpus                : 4
-max_cpu_id             : 7
-nr_nodes               : 1
-cores_per_socket       : 2
-threads_per_core       : 2
-cpu_mhz                : 2893
-hw_caps                : bfebfbff:77bae3ff:28100800:00000001:00000001:00000281:00000000:00000100
-virt_caps              : hvm hvm_directio
-total_memory           : 7866
-free_memory            : 128
-sharing_freed_memory   : 0
-sharing_used_memory    : 0
-outstanding_claims     : 0
-free_cpus              : 0
-xen_major              : 4
-xen_minor              : 9
-xen_extra              : .0_11-4
-xen_version            : 4.9.0_11-4
-xen_caps               : xen-3.0-x86_64 xen-3.0-x86_32p hvm-3.0-x86_32 hvm-3.0-x86_32p hvm-3.0-x86_64 
-xen_scheduler          : credit
-xen_pagesize           : 4096                                                                                                                                
-platform_params        : virt_start=0xffff800000000000                                                                                                       
-xen_changeset          :                                                                                                                                     
-xen_commandline        : vga=gfx-1024x768x16                                                                                                                 
-cc_compiler            : gcc (SUSE Linux) 4.8.5                                                                                                              
-cc_compile_by          : abuild                                                                                                                              
-cc_compile_domain      : suse.de                                                                                                                             
-cc_compile_date        : Mon Aug 28 14:51:54 UTC 2017                                                                                                        
-build_id               : 3e9ed5ee9292b0f57d3bf7c1cb612a0d685ba862                                                                                            
-xend_config_format     : 4               
+General Information
+--------------------
+Hostname       :  tutorial-pv-guest
+Distribution   :  wheezy
+Mirror         :  http://httpredir.debian.org/debian
+Partitions     :  swap            512M  (swap)
+                  /               4G    (ext4)
+Image type     :  full
+Memory size    :  512mb
+Bootloader     :  pygrub
+
+Networking Information
+----------------------
+IP Address     : DHCP [MAC: 00:16:3E:8B:54:20]
 
 
+Creating swap on /dev/vg0/tutorial-pv-guest-swap
+Done
+
+Creating ext4 filesystem on /dev/vg0/tutorial-pv-guest-disk
+Done
+Installation method: debootstrap
+Done
+
+Running hooks
+Done
+
+No role scripts were specified.  Skipping
+
+Creating Xen configuration file
+Done
+
+No role scripts were specified.  Skipping
+Setting up root password
+Generating a password for the new guest.
+All done
+
+
+Logfile produced at:
+	 /var/log/xen-tools/tutorial-pv-guest.log
+
+Installation Summary
+---------------------
+Hostname        :  tutorial-pv-guest
+Distribution    :  wheezy
+MAC Address     :  00:16:3E:8B:54:20
+IP Address(es)  :  dynamic
+SSH Fingerprint :  SHA256:sbZ0F9eeQQUmhk6OlO0d9uNshBcWNXJDVeU38sOs44c (DSA)
+SSH Fingerprint :  SHA256:9bHltPw2zaKQ09nrQCG1Eemag79+mLE123Ob9PvBMWo (ECDSA)
+SSH Fingerprint :  SHA256:6kj3M8YPN1HDUI0dY+elV+fzx0pDmEglZTNvDBqYYck (RSA)
+Root Password   :  A5WHNeGpwDh5d3qUnycBrNA
