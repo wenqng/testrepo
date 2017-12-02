@@ -1,6 +1,3 @@
 rsa0237 	used for LG7(DB)	2017-05-07 SUN 00:00 - 04:00 UTC  	1009872126	Zhu Wenqing
-rsa0327 	used for Z6E	2017-05-07 SUN 01:00 - 05:00 UTC	1009872540	Zhu Wenqing              ? backup
+rsa0327 	used for Z6E	2017-05-07 SUN 01:00 - 05:00 UTC	1009872540	Zhu Wenqing backup
 rsa0365  	used for Z3D (HANA DB)	2017-05-07 SUN 00:00 - 04:00 UTC	1009872784	Zhu Wenqing
-
-
-rsa0275	used for L0Z (DB)	2017-05-07 SUN 06:00-10:00 UTC	1009867396	Zhu Wenqing
